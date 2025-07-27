@@ -82,14 +82,21 @@ Follow these instructions to set up and run the project locally.
     * Create a `.env` file in the `backend` directory and add your secret keys. Use the `.env.example` as a template:
         ```env
         # backend/.env
+        LANGCHAIN_TRACING_V2="true"
+        LANGCHAIN_API_KEY="..." --> Optional for langsmith monitoring
+
         GOOGLE_API_KEY="AIzaSy..."
         GOOGLE_CLIENT_ID="..."
         GOOGLE_CLIENT_SECRET="..."
         
         SUPABASE_URL="[https://your-project.supabase.co](https://your-project.supabase.co)"
         SUPABASE_SERVICE_ROLE_KEY="your-supabase-service-role-key"
-
+        SUPABASE_CLIENT_SECRET="..."
+        
+        PGCRYPTO_SECRET_KEY="..."
+        
         FRONTEND_URL="http://localhost:3000"
+        
         ```
 
 3.  **Frontend Setup:**
