@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+body {
+  /* Using default Tailwind colors */
+  @apply bg-gray-50 text-gray-900;
+}
+
+.bg-grid-gray-100 {
+    background-image: linear-gradient(to right, #e5e7eb 1px, transparent 1px), linear-gradient(to bottom, #e5e7eb 1px, transparent 1px);
+    background-size: 2rem 2rem;
+}
+
+@layer components {
+    /* Add smooth transition for sidebar */
+    .sidebar-transition {
+        @apply transition-all duration-300 ease-in-out;
+    }
+}

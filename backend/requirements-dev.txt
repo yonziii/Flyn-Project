@@ -1,0 +1,8 @@
+# requirements-dev.txt
+
+# First, install all the production requirements
+-r requirements.txt
+
+# Then, add the development-specific packages
+pytest
+pytest-asyncio
