@@ -2,7 +2,6 @@
 
 > An AI-powered application that automatically extracts data from receipt images and populates a Google Sheet, turning any spreadsheet into an intelligent budgeting canvas.
 
-![Flyn Dashboard](https://i.imgur.com/B9O0KzN.png)
 
 ---
 
